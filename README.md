@@ -60,7 +60,7 @@ For **Release** compilation, run the next command:
 Matrix random generator
 -----------------------
 
-Use the next command to generate random matrices
+Use the next command to generate random matrices:
 
 `./matrix_rand.py -r 5 -c 5 -o tests/matrix_random.txt`
 
