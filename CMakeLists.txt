@@ -1,10 +1,10 @@
 cmake_minimum_required (VERSION 3.0)
 
-#### Project name ####
-project(matrix_determinant C)
-
 #### Target ####
 set(TARGET matrix_determinant)
+
+#### Project name ####
+project(${TARGET} C)
 
 #### Compile options ####
 set(CMAKE_C_STANDARD 11)
@@ -32,3 +32,4 @@ add_executable(${TARGET}
 	src/config/config.c
 	src/main_matrix_determinant.c
 )
+
